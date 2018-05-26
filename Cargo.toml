@@ -1,6 +1,11 @@
 [package]
 name = "rust_traits_toy"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Don Smith <don@antiantonym.com>"]
+
+[lib]
+name = 'circle'
+path = 'src/circle.rs'
+doc = true
 
 [dependencies]

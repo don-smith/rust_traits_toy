@@ -1,9 +1,10 @@
-mod area;
-mod circle;
-mod circle_area;
+//! # Hi there
+//! This is the documentation for the binary.
+
+extern crate circle;
 
 use circle::Circle;
-use area::Area;
+use circle::area::Area;
 
 fn main() {
     let c1 = Circle { x: 7.9, y: 4.6, radius: 4.9 };
