@@ -22,7 +22,7 @@ impl Area for Circle {
     /// use circle::area::Area;
     /// let c1 = circle::Circle { x: 2.0, y: 3.0, radius: 1.4 };
     /// let c2 = circle::Circle { x: 2.0, y: 3.0, radius: 1.5 };
-    /// assert_eq!(c2.is_larger_than(&c1), true);
+    /// assert!(c2.is_larger_than(&c1));
     /// ```
     fn is_larger_than(&self, other: &Self) -> bool {
         self.get_area() > other.get_area()
